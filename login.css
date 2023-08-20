@@ -1,0 +1,70 @@
+/* Reset default margins and paddings */
+body, h2, form, label, input, select, textarea {
+  margin: 0;
+  padding: 0;
+}
+/* Center the <h2> element */
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Center the form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form input styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+  margin-top: 5px;
+}
+
+/* Navigation bar styles */
+.top-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #4CAF50;
+}

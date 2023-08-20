@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Please Login</h2>
+    <header>
+        <nav class="top-nav">
+            <a href="about.html" class="nav-link">About</a>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <form action="backend.php" method="post" target="_blank">
+        <label for="Name">Name:</label><br>
+        <input type="text" name="MyName" id="Name"><br>
+
+        <label for="Role">Role:</label><br>
+        <input type="text" name="MyRole"><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="email" name="myEmail"><br>
+
+        <label for="Date">Date:</label><br>
+        <input type="date" name="MyDate"><br>
+
+        <label for="Bonus">Bonus:</label><br>
+        <input type="number" name="Mybonus"><br>
+
+        <label for="MyEligibility">Are You Eligible?</label>
+        <input type="checkbox" name="MyEligibility" id="MyEligibility" checked><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="MyGender" value="male">Male
+        <input type="radio" name="MyGender" value="female">Female
+        <input type="radio" name="MyGender" value="other">Other<br>
+
+        <label for="About">Write about Yourself:</label><br>
+        <textarea name="MyAbout" cols="30" rows="10"></textarea><br>
+
+        <label for="Car">Car:</label>
+        <select name="MyCar" id="Car">
+            <option value="BMW">BMW</option>
+            <option value="Lambo">Lamborghini</option>
+            <option value="Bugati">Bugatti</option>
+            <option value="Rolls Royce" selected>Rolls Royce</option>
+        </select><br>
+
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </form>
+</body>
+
+</html>
